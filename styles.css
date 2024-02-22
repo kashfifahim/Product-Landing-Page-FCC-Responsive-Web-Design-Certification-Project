@@ -1,0 +1,44 @@
+* {
+    margin: 2% 2%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 400;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section {
+    border: 2px solid black;
+}
+
+iframe {
+    position: relative;
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+}
